@@ -80,11 +80,16 @@ header .auth_signUp {
 }
 
 .home {
+  display: flex;
+  justify-content: flex-start;
   width: 579px;
-  height: 534px;
+  height: 549px;
   margin-top: 189px;
   margin-left: 352px;
-  background: none;
+}
+.home .one {
+  width: 579px;
+  height: 140px;
 }
 .home .one p {
   font-family: "Roboto";
@@ -97,7 +102,7 @@ header .auth_signUp {
   width: 579px;
   height: 140px;
 }
-.home .two p {
+.home .two .home_text_two {
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 400;
@@ -106,9 +111,62 @@ header .auth_signUp {
   letter-spacing: 0.905em;
   text-transform: uppercase;
   color: #3B668D;
+  border-bottom: 2px solid #3B668D;
+  width: 579px;
+  height: 36px;
+}
+.home .three {
+  display: flex;
+  justify-content: flex-start;
+  width: 579px;
+  height: 41px;
+  left: 352px;
+  top: 554px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 156%;
+  text-transform: uppercase;
+  color: #3B668D;
+}
+.home .four p {
+  display: flex;
+  justify-content: flex-start;
+  width: 579px;
+  height: 112px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 156%;
+  letter-spacing: 0.075em;
+  color: #2B4964;
+}
+.home .btn-try {
+  position: absolute;
+  left: 450px;
+  top: 780px;
+  display: flex;
+  justify-content: flex-start;
+  text-align: center;
+  height: 79px;
+}
+.home .btn-try button {
+  background: url(./Img/btn-new.png);
+  width: 319px;
+  height: 79px;
+  border: none;
+  font-family: "Comfortaa";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 27px;
+  text-align: center;
+  color: #FFFFFF;
 }
 
 .design {
   margin-left: 5px;
-  margin-top: 189PX;
+  margin-top: 120PX;
 }/*# sourceMappingURL=style.css.map */
